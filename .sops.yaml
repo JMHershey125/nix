@@ -1,0 +1,7 @@
+keys:
+  - &joshua_key ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOL+k56A0sms1QIfvp8qZzYFFgqEjnijeHlm1hEr0HHU joshua@Joshuas-MacBook-Air.local
+creation_rules:
+  - path_regex: secrets/.*\.yaml
+    key_groups:
+    - age:
+      - *joshua_key
