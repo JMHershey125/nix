@@ -1,0 +1,6 @@
+# .gitignore
+result
+.direnv
+*.age
+*.key
+*.secret
